@@ -1,0 +1,231 @@
+body{
+    background-color: #C9D5FF;
+    margin: 0 30px;
+    font-family: "Space Mono", monospace;
+}
+h6{
+    margin: 0;
+    color:  rgba(0, 0, 0, 0.2);
+}
+.top_prior
+{
+  
+    margin: 20px auto;
+  
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+.vertical-line-hr {
+    width: 2px; /* Ширина линии */
+    height: 250px; /* Высота линии */
+    background-color: rgba(0, 0, 0, 0.2); /* Цвет линии */
+    border: none; /* Убираем границы по умолчанию */
+}
+.prio h1{
+    font-family: "Space Mono", monospace;
+}
+.prio{
+    max-width: 1140px;
+}
+.priority
+{
+    background-color: white;
+    padding-left: 24px;
+    padding-right: 31px;
+    display: flex;
+    /* border-right: 2px solid rgba(0, 0, 0, 0.4); */
+   width: 300px;
+}
+.title_prior
+{
+    padding-bottom: 5px;
+    width: 200px;
+    margin: 0;
+    font-size: 19px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.ingridients
+{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.shopping_list
+{
+    background-color: white;
+    border-radius: 12px;
+    width: 350px;
+    padding: 0 30px 21.4px 30px;
+    margin: 30px 0;
+    min-height: 500px;
+  
+}
+.shopping_list input{
+  
+
+}
+input
+{
+    border: none;
+}
+
+.habit_label,.habit_var,.week_days
+{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.habit_var 
+{
+    justify-content: flex-start;
+    gap: 50px;
+   
+}
+.label {
+    min-width: 200px;
+}
+#en
+{
+    width: 50px;
+}
+.habbit_tracker
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.notes_block
+{
+    background-color: white;
+}
+.hab_plus_note
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+.trio
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+#day_is
+{
+    background-color: #8FA4F0;
+    width: 350px;
+    font-family: "Space Mono", monospace;
+  font-weight: lighter;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 12px;
+  font-size: 20pt;
+  display: flex;
+}
+#day_is p{
+    padding: 0;
+    margin: 0;
+}
+#date
+{
+    width: 200px;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    font-size: 20pt;
+    color: white;
+    margin-left: 10px;
+}
+#date:focus
+{
+    outline: none; /* Убирает стандартную обводку */
+    border: none; /* Добавляет синюю обводку */
+    background-color:transparent; /* Меняет цвет фона */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+   
+}
+/* Custom styling for vertical line */
+.vertical-line {
+    border-left: 2px solid rgba(0, 0, 0, 0.2); /* Creates the vertical line */
+    height: 100px; /* Set the height of the vertical line */
+    margin-left: 10px; /* Optional spacing */
+}
+
+.prio
+{
+    background-color: white;
+    width: 80vw;
+    border-radius: 12px;
+    text-align: left;
+ 
+  padding: 27px 34px;
+
+
+}
+.prio h1
+{
+text-align: left;
+padding: 0;
+margin: 0;
+}
+.text
+{
+    margin-top: 5px;
+    font-family: "Space Mono", monospace;
+    font-weight: regular;
+    font-size: 10pt; 
+    width: 200px;
+    border: none;
+   
+   
+}
+.text:focus,#food_input:focus,.note:focus
+{
+    outline: none; /* Убирает стандартную обводку */
+    border: none; /* Добавляет синюю обводку */
+    background-color:transparent; /* Меняет цвет фона */
+  
+}
+.before_line
+{
+    text-align: left;
+}
+#shop 
+{
+    background-color: transparent;
+    border: none;
+    font-family: "Space Mono", monospace;
+}
+#shop:hover
+{
+    background-color: rgba(0, 0, 0, 0.1); 
+    padding: 3px 5px;
+    border-radius: 2px;
+    transition-duration: 500ms;
+    border: none;
+}
+#notes_title
+{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2); 
+}
+.habbit_tracker,.notes_block
+{
+    margin: 30px 0 0 0 ;
+    border-radius: 12px;
+    padding: 27px 34px;
+}
+#ur_hobby
+{
+    width: 257px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.en
+{
+    font-size: 20px;
+   
+}
+.note{
+width: 700px;
+border: none;
+}
